@@ -1,7 +1,8 @@
 {
 	"name": "Python 3 - Anaconda",
 	"context": "..",
-	"image":"leestott/data_8_foundations_of_datascience"
+	//pulling a specific docker image from dockerhub tag = fistry in this example as default codespaces will use latest
+	"image":"leestott/data_8_foundations_of_datascience:firstry"
 	//"dockerFile": "Dockerfile",
 	
 	// None of this is required as we are using a Docker image using image 
