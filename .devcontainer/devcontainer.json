@@ -1,0 +1,22 @@
+{
+	"name": "Python 3 - Anaconda",
+	"context": "..",
+	"image":"https://hub.docker.com/r/leestott/data_8_foundations_of_datascience"
+	//"dockerFile": "Dockerfile",
+	
+	// None of this is required as we are using a Docker image using image 
+	// Set *default* container specific settings.json values on container create.
+
+     // Add the IDs of extensions you want installed when the container is created.
+
+	 // Use 'forwardPorts' to make a list of ports inside the container available locally.
+ 
+	 // "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	//"postCreateCommand": "pip install -r requirements.txt",
+
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}
+
