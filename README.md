@@ -2,10 +2,12 @@
 
 In this demo we are using a custom DockerHub Image for deployment to Visual Studio Codespace
 
-Key requirements are a custom dockerhub image created 
-Image is uploaded to Dockerhub in the case of this example
-Notebook folder contains a sample jupyter notebook
-Data includes a sample data set 
+## Key requirements ## 
+
+1. A custom dockerhub image created 
+2. Image is uploaded to Dockerhub in the case of this example
+3. Notebook folder contains a sample jupyter notebook
+4. Data includes a sample data set 
 
 Simply deploy at Visual Studio Codespaces
 
