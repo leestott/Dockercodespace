@@ -8,10 +8,7 @@
 		 // Set *default* container specific settings.json values on container create.
 		
      // Add the IDs of extensions you want installed when the container is created.
-		 "extensions":[
-			"ms-python.python",
-			"vsls-contrib.codetour"
-		 ]
+	
 	 // Use 'forwardPorts' to make a list of ports inside the container available locally.
  
 	 // "forwardPorts": [],
