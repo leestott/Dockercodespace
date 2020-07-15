@@ -1,7 +1,7 @@
 {
 	"name": "Python 3 - Anaconda",
 	"context": "..",
-	"image":"https://hub.docker.com/r/leestott/data_8_foundations_of_datascience"
+	"image":"leestott/data_8_foundations_of_datascience"
 	//"dockerFile": "Dockerfile",
 	
 	// None of this is required as we are using a Docker image using image 
