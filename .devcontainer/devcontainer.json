@@ -3,13 +3,21 @@
 	"context": "..",
 	//pulling a specific docker image from dockerhub tag = fistry in this example as default codespaces will use latest
 	"image":"leestott/data_8_foundations_of_datascience:firstry"
-	//"dockerFile": "Dockerfile",
 	
-	// None of this is required as we are using a Docker image using image 
-	// Set *default* container specific settings.json values on container create.
-
+	//"dockerFile": "Dockerfile",
+		 // Set *default* container specific settings.json values on container create.
+		 "settings": { 
+			"terminal.integrated.shell.linux": "/bin/bash",
+			"python.pythonPath": "/opt/conda/bin/python",
+			"python.linting.enabled": true,
+			"python.linting.pylintEnabled": true,
+			"python.linting.pylintPath": "/opt/conda/bin/pylint"
+		},
      // Add the IDs of extensions you want installed when the container is created.
-
+		 "extensions":[
+			"ms-python.python",
+			"vsls-contrib.codetour"
+		 ]
 	 // Use 'forwardPorts' to make a list of ports inside the container available locally.
  
 	 // "forwardPorts": [],
